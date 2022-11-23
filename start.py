@@ -2,9 +2,9 @@ from TikTokLive import TikTokLiveClient
 from TikTokLive.types.events import SubscribeEvent, FollowEvent
 
 # UPDATE THESE TO BE WHERE YOU WANT FILES WRITTEN
-subscribersLog = "/Users/jbathgate/Desktop/subscribers.txt"
-followersLog = "/Users/jbathgate/Desktop/followers.txt"
-streamerId = "@birdmann86"
+subscribersLog = "C:/Path/To/Your/SubscribersFile.txt"
+followersLog = "C:/Path/To/Your/FollowersFile.txt"
+streamerId = "@badaimbenny"
 
 # Instantiate the client with the user's username
 client: TikTokLiveClient = TikTokLiveClient(unique_id=streamerId, **({"enable_extended_gift_info": True}))
